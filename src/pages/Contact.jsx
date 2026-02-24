@@ -42,7 +42,7 @@ function Contact() {
           className="relative h-80 w-full flex flex-col items-center justify-center bg-cover bg-center mb-12 rounded-4xl"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/contact.png')",
+              "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/contact.jpg')",
           }}
         >
           <h1 className="text-white text-4xl font-bold text-center mb-4">
