@@ -23,6 +23,7 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
     { name: "Contact", path: "/contact" },
+    { name: "Join Us", path: "/join" },
   ];
 
   return (
@@ -38,7 +39,7 @@ const Navbar = () => {
               alt=""
               className="sm:ml-6 ml-3 w-10 h-10 rounded-full"
             />
-            <span className="text-3xl font-bold ml-2">Humanity First Foundation</span>
+            <span className="text py-1 sm:py-0 sm:text-2xl font-bold ml-2">Humanity First Foundation</span>
           </NavLink>
         </div>
         <div className="hidden md:flex items-center gap-8">

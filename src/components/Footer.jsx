@@ -28,8 +28,8 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link to="/ai" className="hover:text-cyan-700 transition">
-              AI
+            <Link to="/join" className="hover:text-cyan-700 transition">
+              Join Us
             </Link>
           </li>
         </ul>

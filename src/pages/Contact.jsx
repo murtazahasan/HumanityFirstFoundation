@@ -4,21 +4,29 @@ function Contact() {
   const [accordionData, setAccordionData] = useState([
     {
       title:
-        "Q: How does Saving Mothers work with healthcare workers who have limited technology experience?",
+        "Q: What is Humanity First Foundation (HFF), and what is its mission?",
       content:
-        "Saving Mothers is designed with simplicity at its core. Healthcare workers interact with the app using natural voice commands in their local language, eliminating the need for complex typing or navigation. The system guides providers through structured questions during consultations, making it as intuitive as having a conversation. Our extensive field testing with frontline workers ensures the technology adapts to existing workflows rather than disrupting them.",
+        "HFF is a humanitarian organization committed to serving people without discrimination. We believe in putting humanity first, because every individual, regardless of race, religion, or nationality, deserves dignity, opportunity, and compassion. Our mission is to create meaningful impact in education, healthcare, social justice, and ensuring no child goes hungry. In a world divided by borders, beliefs, and biases, we choose to see people as people first. Before any label, every life holds equal value, and that belief shapes everything we stand for and every action we take.",
     },
     {
-      title:
-        "Q: What makes Saving Mothers more effective than traditional consultations?",
+      title: "Q: How can we join HFF as a volunteer?",
       content:
-        "While doctors in traditional settings detect symptoms of conditions like gestational diabetes and hypertension only 9% of the time, Saving Mothers flags these same critical symptoms 44% of the time. The app ensures systematic screening by guiding healthcare workers through comprehensive question sets, preventing crucial symptoms from being overlooked during rushed consultations. Additionally, Saving Mothers creates digital medical records that support better follow-up care and continuity.",
+        "You can join HFF by submitting the Join Us form available on our website. Once received, our team will connect with you to guide you through the onboarding process and match you with projects that align with your skills and passion.",
     },
     {
-      title:
-        "Q: How accessible is Saving Mothers for patients and healthcare facilities with limited resources?",
+      title: "Q: How can we donate to HFF?",
       content:
-        "Saving Mothers operates on standard smartphones and doesn't require expensive equipment or extensive infrastructure. We've also developed a simplified version that works entirely through WhatsApp, allowing patients to complete health screenings before their appointments using any basic smartphone. This approach ensures accessibility even in the most resource-constrained settings, while the voice-enabled interface overcomes literacy barriers that often prevent technology adoption in underserved communities.",
+        "You can support our mission by donating through our secure online portal, direct bank transfer, or at our designated collection points. As a foundation built on transparency, we provide digital receipts for every contribution, ensuring your support directly fuels our education, healthcare, and hunger-relief initiatives.",
+    },
+    {
+      title: "Q: How can we collaborate with HFF?",
+      content:
+        "Collaboration is at the heart of our work. Organizations, institutions, and individuals can partner with HFF by reaching out through our Contact Us page. Whether it’s joint projects, sponsorships, or community initiatives, we welcome partnerships that amplify impact and bring sustainable change.",
+    },
+    {
+      title: "Q: How does HFF ensure transparency and accountability?",
+      content:
+        "We operate with full transparency and strict accountability. Every donation is tracked, every project is documented, and regular updates are shared with our community. We believe that trust is earned through action, and we live by that standard every day.",
     },
   ]);
   const [isOpen, setIsOpen] = useState(false);
@@ -30,11 +38,22 @@ function Contact() {
   return (
     <>
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-center mb-8">Get in Touch</h1>
-        <p className="text-xl text-center text-gray-700 mb-10">
-          Have any questions or need assistance? Reach out to us through your
-          preferred channel:
-        </p>
+        <div
+          className="relative h-80 w-full flex flex-col items-center justify-center bg-cover bg-center mb-12 rounded-4xl"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/contact.png')",
+          }}
+        >
+          <h1 className="text-white text-4xl font-bold text-center mb-4">
+            Get in Touch
+          </h1>
+          <p className="text-white text sm:text-xl text-center max-w-2xl px-4 opacity-90">
+            Have any questions or need assistance? Reach out to us through your
+            preferred channel.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Instagram */}
           <div className="flex items-start p-4 border rounded-md shadow-md hover:shadow-lg">
