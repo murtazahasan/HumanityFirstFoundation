@@ -105,7 +105,7 @@ function Contact() {
               onClick={() => toggle(index)}
               className="flex items-center justify-between w-full p-4 focus:outline-none"
             >
-              <span>{item.title}</span>
+              <span className="text-left px-1">{item.title}</span>
               <svg
                 className={`w-4 h-4 transition transform duration-300 ${
                   index === isOpen ? "rotate-180" : ""
