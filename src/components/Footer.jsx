@@ -7,28 +7,46 @@ function Footer() {
         {/* Logo and Brand */}
         <div className="flex items-center justify-center sm:justify-start gap-3 mb-4 sm:mb-0">
           <img src="/HFF.png" alt="Logo" className="w-8 h-8 rounded-4xl" />
-          <h2 className="text-lg font-semibold tracking-wide">Humanity First Foundation</h2>
+          <h2 className="text-lg font-semibold tracking-wide">
+            Humanity First Foundation
+          </h2>
         </div>
 
         {/* Navigation Links */}
         <ul className="flex flex-wrap justify-center gap-6 text-sm font-medium">
           <li>
-            <Link to="/" className="hover:text-cyan-700 transition">
+            <Link
+              to="/"
+              className="hover:text-cyan-700 transition"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="hover:text-cyan-700 transition">
+            <Link
+              to="/projects"
+              className="hover:text-cyan-700 transition"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-cyan-700 transition">
+            <Link
+              to="/contact"
+              className="hover:text-cyan-700 transition"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Contact
             </Link>
           </li>
           <li>
-            <Link to="/join" className="hover:text-cyan-700 transition">
+            <Link
+              to="/join"
+              className="hover:text-cyan-700 transition"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               Join Us
             </Link>
           </li>

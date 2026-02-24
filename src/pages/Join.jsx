@@ -4,10 +4,10 @@ function Join() {
   return (
     <>
       <div
-        className="relative h-80 sm:h-96 w-full flex items-center justify-center bg-cover bg-center"
+        className="relative h-80 sm:h-screen w-full flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/join.jpg')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/joinm.jpg')",
         }}
       >
         <h1 className="text-white pt-20 text-6xl md:text-8xl font-black uppercase">
@@ -44,7 +44,7 @@ function Join() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/joinm.jpg"
+              src="/join.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
