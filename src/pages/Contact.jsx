@@ -96,7 +96,7 @@ function Contact() {
       </div>
 
       <div className="container mx-auto mb-36">
-        <h1 className="font-bold text-center text-3xl mt-16 mb-10">
+        <h1 className="font-bold text-center text-3xl mt-16 mb-10 px-2">
           Frequently Asked Questions
         </h1>
         {accordionData.map((item, index) => (
