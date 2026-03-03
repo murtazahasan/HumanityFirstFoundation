@@ -96,7 +96,7 @@ function Projects() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/join.jpg"
+              src="/sap1.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
@@ -161,7 +161,7 @@ function Projects() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/join.jpg"
+              src="/contact.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
@@ -310,7 +310,7 @@ function Projects() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/join.jpg"
+              src="/sap3.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />

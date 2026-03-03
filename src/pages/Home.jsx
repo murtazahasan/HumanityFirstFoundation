@@ -2,21 +2,21 @@ import React from "react";
 
 function Home() {
   const sapImages = [
-    { id: 1, src: "/joinm.jpg", title: "Orphanage Visit" },
-    { id: 2, src: "/joinm.jpg", title: "Old Age Home" },
-    { id: 3, src: "/joinm.jpg", title: "Plantation Drive" },
-    { id: 4, src: "/joinm.jpg", title: "Medical Camp" },
-    { id: 5, src: "/joinm.jpg", title: "Food Distribution" },
-    { id: 6, src: "/joinm.jpg", title: "Education Workshop" },
+    { id: 1, src: "/e1.jpg", title: "Educational Outreach" },
+    { id: 2, src: "/p1.jpg", title: "Plantation drive" },
+    { id: 3, src: "/m1.jpg", title: "Harmonic Wellness Program" },
+    { id: 4, src: "/a1.jpg", title: "Art therapy" },
+    { id: 5, src: "/c1.jpg", title: "Collective Joy Drive" }, // Community Nourishment Drive
+    { id: 6, src: "/pl1.jpg", title: "Youth Engagement & Recreation" },
   ];
 
   return (
     <>
       <div
-        className="relative h-80 sm:h-screen w-full flex flex-col items-center justify-center bg-cover bg-center text-center px-4"
+        className="relative h-64 sm:h-screen w-full flex flex-col items-center justify-center bg-cover bg-center text-center px-4"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/joinm.jpg')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/mb.jpg')",
         }}
       >
         {/* Heading */}
@@ -26,7 +26,7 @@ function Home() {
 
         {/* Paragraph - Now Below */}
         <p className="text-white text-lg md:text-2xl mt-2 font-medium italic opacity-90">
-          "Be the reason for someone’s happiness."
+          "Be the reason for someone’s happiness"
         </p>
       </div>
 
