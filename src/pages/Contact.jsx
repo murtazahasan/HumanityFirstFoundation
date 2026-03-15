@@ -15,9 +15,43 @@ function Contact() {
     },
     {
       title: "Q: How can we donate to HFF?",
-      content:
-        "You can support our mission by donating through our secure online portal, direct bank transfer, or at our designated collection points. As a foundation built on transparency, we provide digital receipts for every contribution, ensuring your support directly fuels our education, healthcare, and hunger-relief initiatives.",
+      content: (
+        <div>
+          <p>
+            You can support our mission by donating through our secure online
+            portal, direct bank transfer, or at our designated collection
+            points. As a foundation built on transparency, we provide digital
+            receipts for every contribution, ensuring your support directly
+            fuels our education, healthcare, and hunger-relief initiatives.
+          </p>
+
+          <div
+            style={{
+              marginTop: "1rem",
+              padding: "1rem",
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              backgroundColor: "#f9f9f9",
+            }}
+          >
+            <h4 style={{ marginBottom: "0.5rem" }}>Bank Details</h4>
+            <p>
+              <strong>Bank Account:</strong> JazzCash
+            </p>
+            <p>
+              <strong>Account Title:</strong> SYED MURTAZA HASSAN RIZVI
+            </p>
+            <p>
+              <strong>Account Number:</strong> 03148008083
+            </p>
+            <p>
+              <strong>IBAN:</strong> PK59JCMA0407923148008083
+            </p>
+          </div>
+        </div>
+      ),
     },
+
     {
       title: "Q: How can we collaborate with HFF?",
       content:
@@ -55,11 +89,31 @@ function Contact() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* linkedin */}
+          <div className="flex items-start p-4 border rounded-md shadow-md hover:shadow-lg">
+            <img
+              className="w-8 h-8 mr-4 mt-1"
+              src="/linkedin.png"
+              alt="DM us on Instagram"
+            />
+            <div className="flex flex-col overflow-hidden">
+              <span className="text-lg font-semibold">linkedin:</span>
+              <a
+                href="https://www.linkedin.com/company/humanityfirst-foundation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline break-all"
+              >
+                Humanity First Foundation
+              </a>
+            </div>
+          </div>
+
           {/* Instagram */}
           <div className="flex items-start p-4 border rounded-md shadow-md hover:shadow-lg">
             <img
               className="w-8 h-8 mr-4 mt-1"
-              src="/36instagram.png"
+              src="/insta.png"
               alt="DM us on Instagram"
             />
             <div className="flex flex-col overflow-hidden">
@@ -75,11 +129,31 @@ function Contact() {
             </div>
           </div>
 
+          {/* facbook */}
+          <div className="flex items-start p-4 border rounded-md shadow-md hover:shadow-lg">
+            <img
+              className="w-8 h-8 mr-4 mt-1"
+              src="/fb.png"
+              alt="DM us on Instagram"
+            />
+            <div className="flex flex-col overflow-hidden">
+              <span className="text-lg font-semibold">Facebook:</span>
+              <a
+                href="https://www.facebook.com/profile.php?id=61569849285763"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline break-all"
+              >
+                Humanity First Foundation
+              </a>
+            </div>
+          </div>
+
           {/* Email */}
           <div className="flex items-start p-4 border rounded-md shadow-md hover:shadow-lg">
             <img
               className="w-8 h-8 mr-4 mt-1"
-              src="/36gmail.png"
+              src="/gmail.png"
               alt="Email us"
             />
             <div className="flex flex-col overflow-hidden">
