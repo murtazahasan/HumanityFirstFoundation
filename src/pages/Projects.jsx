@@ -2,57 +2,57 @@ import React from "react";
 
 function Projects() {
   const sapImages = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/sap1/sap1-1.png" },
+    { id: 2, src: "/sap1/sap1-2.png" },
+    { id: 3, src: "/sap1/sap1-3.png" },
+    { id: 4, src: "/sap1/sap1-4.png" },
+    { id: 5, src: "/sap1/sap1-5.png" },
+    { id: 6, src: "/sap1/sap1-6.png" },
   ];
 
   const sapImages2 = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/join-project-banner.jpg" },
+    { id: 2, src: "/join-project-banner.jpg" },
+    { id: 3, src: "/join-project-banner.jpg" },
+    { id: 4, src: "/join-project-banner.jpg" },
+    { id: 5, src: "/join-project-banner.jpg" },
+    { id: 6, src: "/join-project-banner.jpg" },
   ];
 
   const sapImages2a = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/join-project-banner.jpg" },
+    { id: 2, src: "/join-project-banner.jpg" },
+    { id: 3, src: "/join-project-banner.jpg" },
+    { id: 4, src: "/join-project-banner.jpg" },
+    { id: 5, src: "/join-project-banner.jpg" },
+    { id: 6, src: "/join-project-banner.jpg" },
   ];
 
   const sapImages2b = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/join-project-banner.jpg" },
+    { id: 2, src: "/join-project-banner.jpg" },
+    { id: 3, src: "/join-project-banner.jpg" },
+    { id: 4, src: "/join-project-banner.jpg" },
+    { id: 5, src: "/join-project-banner.jpg" },
+    { id: 6, src: "/join-project-banner.jpg" },
   ];
 
   const sapImages2c = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/join-project-banner.jpg" },
+    { id: 2, src: "/join-project-banner.jpg" },
+    { id: 3, src: "/join-project-banner.jpg" },
+    { id: 4, src: "/join-project-banner.jpg" },
+    { id: 5, src: "/join-project-banner.jpg" },
+    { id: 6, src: "/join-project-banner.jpg" },
   ];
 
   const sapImages3 = [
-    { id: 1, src: "/joinm.jpg" },
-    { id: 2, src: "/joinm.jpg" },
-    { id: 3, src: "/joinm.jpg" },
-    { id: 4, src: "/joinm.jpg" },
-    { id: 5, src: "/joinm.jpg" },
-    { id: 6, src: "/joinm.jpg" },
+    { id: 1, src: "/sap3/sap3-1.png" },
+    { id: 2, src: "/sap3/sap3-2.png" },
+    { id: 3, src: "/sap3/sap3-3.png" },
+    { id: 4, src: "/sap3/sap3-4.png" },
+    { id: 5, src: "/sap3/sap3-5.png" },
+    { id: 6, src: "/sap3/sap3-6.png" },
   ];
   return (
     <>
@@ -60,7 +60,7 @@ function Projects() {
         className="relative h-80 sm:h-screen w-full flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/joinm.jpg')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/join-project-banner.jpg')",
         }}
       >
         <h1 className="text-white pt-20 text-5xl md:text-8xl font-black uppercase">
@@ -161,7 +161,7 @@ function Projects() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/contact.jpg"
+              src="/contact-banner.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
@@ -180,7 +180,7 @@ function Projects() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sapImages.map((image) => (
+          {sapImages2.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"
@@ -208,7 +208,7 @@ function Projects() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sapImages.map((image) => (
+          {sapImages2a.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"
@@ -236,7 +236,7 @@ function Projects() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sapImages.map((image) => (
+          {sapImages2b.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"
@@ -264,7 +264,7 @@ function Projects() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sapImages.map((image) => (
+          {sapImages2c.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"
@@ -329,7 +329,7 @@ function Projects() {
 
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sapImages.map((image) => (
+          {sapImages3.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"

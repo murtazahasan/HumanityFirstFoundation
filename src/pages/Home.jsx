@@ -16,7 +16,7 @@ function Home() {
         className="relative h-64 sm:h-screen w-full flex flex-col items-center justify-center bg-cover bg-center text-center px-4"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/mb.jpg')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/home-banner.jpg')",
         }}
       >
         {/* Heading */}
@@ -35,7 +35,7 @@ function Home() {
           {/* 1. Image: Now Top (Mobile) & Left (Desktop) */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/joinm.jpg"
+              src="/join-project-banner.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
@@ -123,7 +123,7 @@ function Home() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/join.jpg"
+              src="/volunteer-banner.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
