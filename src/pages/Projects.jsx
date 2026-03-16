@@ -2,57 +2,57 @@ import React from "react";
 
 function Projects() {
   const sapImages = [
-    { id: 1, src: "/sap1/sap1-1.png" },
-    { id: 2, src: "/sap1/sap1-2.png" },
-    { id: 3, src: "/sap1/sap1-3.png" },
-    { id: 4, src: "/sap1/sap1-4.png" },
-    { id: 5, src: "/sap1/sap1-5.png" },
-    { id: 6, src: "/sap1/sap1-6.png" },
+    { id: 1, src: "/sap1/sap1-1.jpg" },
+    { id: 2, src: "/homecards/sap1-2.jpg" },
+    { id: 3, src: "/sap1/sap1-3.jpg" },
+    { id: 4, src: "/sap1/sap1-4.jpg" },
+    { id: 5, src: "/homecards/sap1-5.jpg" },
+    { id: 6, src: "/sap1/sap1-6.jpg" },
   ];
 
   const sapImages2 = [
-    { id: 1, src: "/join-project-banner.jpg" },
-    { id: 2, src: "/join-project-banner.jpg" },
-    { id: 3, src: "/join-project-banner.jpg" },
-    { id: 4, src: "/join-project-banner.jpg" },
-    { id: 5, src: "/join-project-banner.jpg" },
-    { id: 6, src: "/join-project-banner.jpg" },
+    { id: 1, src: "/sap2/glimpse/sap2-g1.jpg" },
+    { id: 2, src: "/sap2/glimpse/sap2-g2.jpg" },
+    { id: 3, src: "/sap2/glimpse/sap2-g3.jpg" },
+    { id: 4, src: "/sap2/glimpse/sap2-g4.jpg" },
+    { id: 5, src: "/sap2/glimpse/sap2-g5.jpg" },
+    { id: 6, src: "/sap2/glimpse/sap2-g6.jpg" },
   ];
-
+  // plant
   const sapImages2a = [
-    { id: 1, src: "/join-project-banner.jpg" },
-    { id: 2, src: "/join-project-banner.jpg" },
-    { id: 3, src: "/join-project-banner.jpg" },
-    { id: 4, src: "/join-project-banner.jpg" },
-    { id: 5, src: "/join-project-banner.jpg" },
-    { id: 6, src: "/join-project-banner.jpg" },
+    { id: 1, src: "/sap2/plant/sap2-p1.jpg" },
+    { id: 2, src: "/sap2/plant/sap2-p2.jpg" },
+    { id: 3, src: "/sap2/plant/sap2-p3.jpg" },
+    { id: 4, src: "/sap2/plant/sap2-p4.jpg" },
+    { id: 5, src: "/sap2/plant/sap2-p5.jpg" },
+    { id: 6, src: "/volunteer-banner.jpg" },
   ];
-
+  // music
   const sapImages2b = [
-    { id: 1, src: "/join-project-banner.jpg" },
-    { id: 2, src: "/join-project-banner.jpg" },
-    { id: 3, src: "/join-project-banner.jpg" },
-    { id: 4, src: "/join-project-banner.jpg" },
-    { id: 5, src: "/join-project-banner.jpg" },
-    { id: 6, src: "/join-project-banner.jpg" },
+    { id: 1, src: "/homecards/sap2-m1.jpg" },
+    { id: 2, src: "/sap2/music/sap2-m2.jpg" },
+    { id: 3, src: "/sap2/music/sap2-m3.jpg" },
+    { id: 4, src: "/homecards/sap2-m4.jpg" },
+    { id: 5, src: "/sap2/music/sap2-m5.jpg" },
+    { id: 6, src: "/sap2/music/sap2-m6.jpg" },
   ];
-
+  // art
   const sapImages2c = [
-    { id: 1, src: "/join-project-banner.jpg" },
-    { id: 2, src: "/join-project-banner.jpg" },
-    { id: 3, src: "/join-project-banner.jpg" },
-    { id: 4, src: "/join-project-banner.jpg" },
-    { id: 5, src: "/join-project-banner.jpg" },
-    { id: 6, src: "/join-project-banner.jpg" },
+    { id: 1, src: "/homecards/sap2-a1.jpg" },
+    { id: 2, src: "/sap2/art/sap2-a2.jpg" },
+    { id: 3, src: "/sap2/art/sap2-a3.jpg" },
+    { id: 4, src: "/sap2/art/sap2-a4.jpg" },
+    { id: 5, src: "/sap2/art/sap2-a5.jpg" },
+    { id: 6, src: "/sap2/art/sap2-a6.jpg" },
   ];
 
   const sapImages3 = [
-    { id: 1, src: "/sap3/sap3-1.png" },
-    { id: 2, src: "/sap3/sap3-2.png" },
-    { id: 3, src: "/sap3/sap3-3.png" },
-    { id: 4, src: "/sap3/sap3-4.png" },
-    { id: 5, src: "/sap3/sap3-5.png" },
-    { id: 6, src: "/sap3/sap3-6.png" },
+    { id: 1, src: "/sap3/sap3-1.jpg" },
+    { id: 2, src: "/sap3/sap3-2.jpg" },
+    { id: 3, src: "/sap3/sap3-3.jpg" },
+    { id: 4, src: "/sap3/sap3-4.jpg" },
+    { id: 5, src: "/sap3/sap3-5.jpg" },
+    { id: 6, src: "/homecards/sap3-6.jpg" },
   ];
   return (
     <>

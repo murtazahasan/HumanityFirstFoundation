@@ -2,12 +2,12 @@ import React from "react";
 
 function Home() {
   const sapImages = [
-    { id: 1, src: "/e1.jpg", title: "Educational Outreach" },
-    { id: 2, src: "/p1.jpg", title: "Plantation drive" },
-    { id: 3, src: "/m1.jpg", title: "Harmonic Wellness Program" },
-    { id: 4, src: "/a1.jpg", title: "Art therapy" },
-    { id: 5, src: "/c1.jpg", title: "Collective Joy Drive" }, // Community Nourishment Drive
-    { id: 6, src: "/pl1.jpg", title: "Youth Engagement & Recreation" },
+    { id: 1, src: "/homecards/sap1-2.jpg", title: "Educational Outreach" },
+    { id: 2, src: "/homecards/sap3-6.jpg", title: "Plantation drive" },
+    { id: 3, src: "/homecards/sap2-m1.jpg", title: "Harmonic Wellness Program" },
+    { id: 4, src: "/homecards/sap2-a1.jpg", title: "Art therapy" },
+    { id: 5, src: "/homecards/sap2-m4.jpg", title: "Collective Joy Drive" }, // Community Nourishment Drive
+    { id: 6, src: "/homecards/sap1-5.jpg", title: "Youth Engagement & Recreation" },
   ];
 
   return (
