@@ -76,7 +76,7 @@ function Contact() {
           className="relative h-80 w-full flex flex-col items-center justify-center bg-cover bg-center mb-12 rounded-4xl"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/contact-banner.jpg')",
+              "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/sap4/sap4-1.jpeg')",
           }}
         >
           <h1 className="text-white text-4xl font-bold text-center mb-4">

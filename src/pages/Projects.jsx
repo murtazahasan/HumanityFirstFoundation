@@ -54,6 +54,15 @@ function Projects() {
     { id: 5, src: "/sap3/sap3-5.jpg" },
     { id: 6, src: "/homecards/sap3-6.jpg" },
   ];
+
+  const sapImages4 = [
+    { id: 1, src: "/sap4/sap4-1.jpeg" },
+    { id: 2, src: "/sap4/sap4-2.jpeg" },
+    { id: 3, src: "/sap4/sap4-3.jpeg" },
+    { id: 4, src: "/sap4/sap4-4.jpeg" },
+    { id: 5, src: "/sap4/sap4-5.jpeg" },
+    { id: 6, src: "/sap4/sap4-6.jpeg" },
+  ];
   return (
     <>
       <div
@@ -161,7 +170,7 @@ function Projects() {
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 h-64 md:h-112.5">
             <img
-              src="/contact-banner.jpg"
+              src="/sap2.jpg"
               alt="HFF Mission"
               className="w-full h-full object-cover"
             />
@@ -330,6 +339,74 @@ function Projects() {
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {sapImages3.map((image) => (
+            <div
+              key={image.id}
+              className="group overflow-hidden rounded-2xl shadow-lg bg-white"
+            >
+              <div className="h-64 overflow-hidden">
+                <img
+                  src={image.src}
+                  alt={image.title}
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* 4 sap */}
+      <div className="container mx-auto px-4 py-20">
+        <h2 className="text-center mb-8">
+          <span className="inline-block bg-teal-700 text-white text-2xl sm:text-3xl md:text-4xl font-bold px-10 py-4 rounded-full shadow-md tracking-wide">
+            Social Action Project (SAP 4)
+          </span>
+        </h2>
+        <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-4xl overflow-hidden shadow-lg">
+          {/* Left Side: Content */}
+          <div className="w-full md:w-1/2 p-8 md:p-16">
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+              The main purpose of our visit to ALKHIDMAT AGHOSH HOME KARACHI was
+              to bring joy, hope, and support to the children through meaningful
+              interaction, educational assistance, and personal engagement. Our
+              objectives were to contribute positively by spending time teaching
+              the children, nurturing their curiosity, and encouraging their
+              determination. We aimed to create an environment where knowledge
+              is not only power but also a source of hope. In addition, we
+              sought to foster growth by inspiring confidence, healing hearts,
+              and nurturing dreams. Through these efforts, we wanted to remind
+              the children that they carry the promise of tomorrow, and that
+              their laughter and resilience are miracles worth cherishing. By
+              dedicating time at the orphanage, we aspired to make the children
+              feel valued, loved, and empowered, while reinforcing that they are
+              an important part of society, deserving of care, respect, and
+              opportunities for a brighter future.
+            </p>
+          </div>
+
+          {/* Right Side: Image */}
+          <div className="w-full md:w-1/2 h-64 md:h-112.5">
+            <img
+              src="sap4.jpeg"
+              alt="HFF Mission"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* glimpse sap 4 */}
+      <div className="container mx-auto px-4 pb-10">
+        {/* Section Header */}
+        <h2 className="text-center mb-12">
+          <span className="inline-block bg-teal-700 text-white text-2xl md:text-3xl font-bold px-10 py-4 rounded-full shadow-md tracking-wide">
+            Few Glimpse (SAP 4)
+          </span>
+        </h2>
+
+        {/* Image Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {sapImages4.map((image) => (
             <div
               key={image.id}
               className="group overflow-hidden rounded-2xl shadow-lg bg-white"
